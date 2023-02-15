@@ -1,5 +1,5 @@
 # HiTechDesigners_Website
-*A portfolio website for a construction company to project their works and serive offered*
+*A portfolio website for a construction company to project their works and service offered*
 
 
 ## Requirements:
