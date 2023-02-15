@@ -10,5 +10,5 @@
 
 
 ## Tech Stack:
-*The website is built using HTML, TailwindCSS, JavaScript*
+**The website is built using HTML, TailwindCSS, JavaScript**
 
