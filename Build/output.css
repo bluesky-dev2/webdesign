@@ -521,6 +521,14 @@ video {
   position: relative;
 }
 
+.top-2 {
+  top: 0.5rem;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
 .top-4 {
   top: 1rem;
 }
@@ -529,560 +537,340 @@ video {
   top: 11vh;
 }
 
-.left-5 {
-  left: 1.25rem;
-}
-
-.bottom-\[60vh\] {
-  bottom: 60vh;
-}
-
-.right-\[17vw\] {
-  right: 17vw;
-}
-
-.left-\[50vw\] {
-  left: 50vw;
-}
-
-.top-\[-20vh\] {
-  top: -20vh;
-}
-
-.left-\[2\.8vw\] {
-  left: 2.8vw;
-}
-
-.left-\[2\.9vw\] {
-  left: 2.9vw;
-}
-
-.left-\[2\.1vw\] {
-  left: 2.1vw;
-}
-
-.left-\[4\.5vw\] {
-  left: 4.5vw;
-}
-
-.left-\[1\.7vw\] {
-  left: 1.7vw;
-}
-
-.top-\[3\.2vh\] {
-  top: 3.2vh;
-}
-
-.top-\[-1vh\] {
-  top: -1vh;
-}
-
-.top-\[-18vh\] {
-  top: -18vh;
-}
-
-.top-\[-17vh\] {
-  top: -17vh;
-}
-
-.left-\[3\.9vw\] {
-  left: 3.9vw;
-}
-
-.left-\[5\.9vw\] {
-  left: 5.9vw;
-}
-
-.left-\[\] {
-  left: ;
-}
-
-.left-\[5\] {
-  left: 5;
-}
-
-.left-\[5\.5vw\] {
-  left: 5.5vw;
-}
-
-.left-\[5vw\] {
-  left: 5vw;
-}
-
-.left-\[vw\] {
-  left: vw;
-}
-
-.left-\[4vw\] {
-  left: 4vw;
-}
-
-.left-\[3\.5vw\] {
-  left: 3.5vw;
-}
-
-.left-\[4\.9vw\] {
-  left: 4.9vw;
-}
-
-.left-\[1\.9vw\] {
-  left: 1.9vw;
-}
-
-.left-\[0\.9vw\] {
-  left: 0.9vw;
-}
-
-.left-\[0\.7vw\] {
-  left: 0.7vw;
-}
-
-.left-\[\.1vw\] {
-  left: .1vw;
-}
-
-.left-\[4\.1vw\] {
-  left: 4.1vw;
-}
-
-.left-\[4\.4vw\] {
-  left: 4.4vw;
-}
-
-.left-\[6\.5vw\] {
-  left: 6.5vw;
-}
-
-.left-\[2\.7vw\] {
-  left: 2.7vw;
-}
-
-.left-\[8\.5vw\] {
-  left: 8.5vw;
-}
-
-.left-\[4\.7vw\] {
-  left: 4.7vw;
-}
-
-.left-\[\.7vw\] {
-  left: .7vw;
-}
-
-.left-\[5\.7vw\] {
-  left: 5.7vw;
-}
-
-.left-\[7\.5vw\] {
-  left: 7.5vw;
-}
-
-.top-\[\] {
-  top: ;
-}
-
-.top-\[10vh\] {
-  top: 10vh;
-}
-
-.top-\[vh\] {
-  top: vh;
-}
-
-.top-\[5vh\] {
-  top: 5vh;
-}
-
-.left-\[1\.8vw\] {
-  left: 1.8vw;
-}
-
-.left-\[0\.8vw\] {
-  left: 0.8vw;
-}
-
-.left-\[0\.2vw\] {
-  left: 0.2vw;
-}
-
-.left-\[0vw\] {
-  left: 0vw;
-}
-
-.left-\[-2vw\] {
-  left: -2vw;
-}
-
-.left-\[-2\.5vw\] {
-  left: -2.5vw;
-}
-
-.left-\[-2\.7vw\] {
-  left: -2.7vw;
-}
-
-.left-\[2vw\] {
-  left: 2vw;
-}
-
-.left-\[-1\.7vw\] {
-  left: -1.7vw;
-}
-
-.left-\[-1\.2vw\] {
-  left: -1.2vw;
-}
-
-.left-\[-1vw\] {
-  left: -1vw;
-}
-
-.left-\[-0\.9vw\] {
-  left: -0.9vw;
-}
-
-.left-7 {
-  left: 1.75rem;
-}
-
-.left-9 {
-  left: 2.25rem;
-}
-
-.right-\[15vw\] {
-  right: 15vw;
-}
-
-.right-\[14vw\] {
-  right: 14vw;
-}
-
-.right-\[1vw\] {
-  right: 1vw;
-}
-
-.right-\[12vw\] {
-  right: 12vw;
-}
-
-.right-\[10vw\] {
-  right: 10vw;
-}
-
-.right-\[8vw\] {
-  right: 8vw;
-}
-
-.right-\[6vw\] {
-  right: 6vw;
-}
-
-.right-\[vw\] {
-  right: vw;
-}
-
-.right-\[4vw\] {
-  right: 4vw;
-}
-
-.left-\[4\.2vw\] {
-  left: 4.2vw;
-}
-
-.left-\[7vw\] {
-  left: 7vw;
-}
-
-.left-\[9vw\] {
-  left: 9vw;
-}
-
-.left-\[-\.9vw\] {
-  left: -.9vw;
-}
-
-.left-\[-1\.9vw\] {
-  left: -1.9vw;
-}
-
-.left-\[\.9vw\] {
-  left: .9vw;
-}
-
-.left-\[5\.8vw\] {
-  left: 5.8vw;
-}
-
-.left-\[6vw\] {
-  left: 6vw;
-}
-
-.left-\[6\.2vw\] {
-  left: 6.2vw;
-}
-
-.left-\[10\.5vw\] {
-  left: 10.5vw;
-}
-
-.left-\[12\.5vw\] {
-  left: 12.5vw;
-}
-
-.left-\[14\.5vw\] {
-  left: 14.5vw;
-}
-
-.left-\[11\.5vw\] {
-  left: 11.5vw;
-}
-
-.left-\[13\.4vw\] {
-  left: 13.4vw;
-}
-
-.left-\[17\.4vw\] {
-  left: 17.4vw;
-}
-
-.left-\[19\.5vw\] {
-  left: 19.5vw;
-}
-
-.left-\[21\.5vw\] {
-  left: 21.5vw;
-}
-
-.left-\[23\.5vw\] {
-  left: 23.5vw;
-}
-
-.left-\[24\.5vw\] {
-  left: 24.5vw;
-}
-
-.left-\[244\.7vw\] {
-  left: 244.7vw;
-}
-
-.left-\[24\.7vw\] {
-  left: 24.7vw;
-}
-
-.left-\[24\.4vw\] {
-  left: 24.4vw;
-}
-
-.left-\[24\.vw\] {
-  left: 24.vw;
-}
-
-.left-\[24\.1vw\] {
-  left: 24.1vw;
-}
-
-.left-\[23vw\] {
-  left: 23vw;
-}
-
-.left-\[22vw\] {
-  left: 22vw;
-}
-
-.left-\[21vw\] {
-  left: 21vw;
-}
-
-.left-\[21\.8vw\] {
-  left: 21.8vw;
-}
-
-.left-\[19\.4vw\] {
-  left: 19.4vw;
-}
-
-.left-\[22\.5vw\] {
-  left: 22.5vw;
-}
-
-.left-\[23\.8vw\] {
-  left: 23.8vw;
-}
-
-.left-\[2\.5vw\] {
-  left: 2.5vw;
-}
-
-.left-\[25\.5vw\] {
-  left: 25.5vw;
-}
-
-.left-\[25\.9vw\] {
-  left: 25.9vw;
-}
-
-.left-\[26\.9vw\] {
-  left: 26.9vw;
-}
-
-.left-\[26\.7vw\] {
-  left: 26.7vw;
-}
-
-.left-\[26\.6vw\] {
-  left: 26.6vw;
-}
-
-.left-\[24\.6vw\] {
-  left: 24.6vw;
-}
-
-.left-\[13\.5vw\] {
-  left: 13.5vw;
-}
-
-.left-\[15\.5vw\] {
-  left: 15.5vw;
-}
-
-.left-\[15vw\] {
-  left: 15vw;
-}
-
-.left-\[1vw\] {
-  left: 1vw;
-}
-
-.left-\[14vw\] {
-  left: 14vw;
-}
-
-.left-\[14\.2vw\] {
-  left: 14.2vw;
-}
-
-.left-\[14\.3vw\] {
-  left: 14.3vw;
-}
-
-.left-\[26vw\] {
-  left: 26vw;
-}
-
-.left-\[21\.9vw\] {
-  left: 21.9vw;
-}
-
-.left-\[22\.2vw\] {
-  left: 22.2vw;
-}
-
-.left-\[23\.2vw\] {
-  left: 23.2vw;
-}
-
-.left-2 {
-  left: 0.5rem;
-}
-
-.left-\[40vw\] {
-  left: 40vw;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
-.left-\[10vw\] {
-  left: 10vw;
-}
-
-.left-\[8vw\] {
-  left: 8vw;
-}
-
-.left-\[45vw\] {
-  left: 45vw;
-}
-
-.top-2 {
-  top: 0.5rem;
-}
-
-.left-1 {
-  left: 0.25rem;
-}
-
-.left-3 {
-  left: 0.75rem;
-}
-
-.left-10 {
-  left: 2.5rem;
-}
-
 .left-12 {
   left: 3rem;
-}
-
-.left-\[43vw\] {
-  left: 43vw;
-}
-
-.top-\[60vh\] {
-  top: 60vh;
-}
-
-.top-\[6vh\] {
-  top: 6vh;
-}
-
-.top-\[2vh\] {
-  top: 2vh;
-}
-
-.top-\[-2vh\] {
-  top: -2vh;
-}
-
-.top-\[-0vh\] {
-  top: -0vh;
-}
-
-.top-\[-40vh\] {
-  top: -40vh;
-}
-
-.top-\[-45vh\] {
-  top: -45vh;
-}
-
-.top-\[-4vh\] {
-  top: -4vh;
-}
-
-.top-\[-47vh\] {
-  top: -47vh;
-}
-
-.top-\[-48vh\] {
-  top: -48vh;
-}
-
-.top-\[-49vh\] {
-  top: -49vh;
-}
-
-.top-\[-vh\] {
-  top: -vh;
 }
 
 .top-\[-50vh\] {
   top: -50vh;
 }
 
+.right-\[10vw\] {
+  right: 10vw;
+}
+
+.left-\[43vw\] {
+  left: 43vw;
+}
+
+.top-\[-17vh\] {
+  top: -17vh;
+}
+
+.top-\[5vh\] {
+  top: 5vh;
+}
+
+.left-\[9vw\] {
+  left: 9vw;
+}
+
+.left-\[6\.2vw\] {
+  left: 6.2vw;
+}
+
+.left-\[14\.3vw\] {
+  left: 14.3vw;
+}
+
+.left-\[11\.5vw\] {
+  left: 11.5vw;
+}
+
+.left-\[19\.4vw\] {
+  left: 19.4vw;
+}
+
+.left-\[26vw\] {
+  left: 26vw;
+}
+
+.left-\[23\.2vw\] {
+  left: 23.2vw;
+}
+
+.top-\[3\.2vh\] {
+  top: 3.2vh;
+}
+
+.left-\[8vw\] {
+  left: 8vw;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.left-\[21vw\] {
+  left: 21vw;
+}
+
+.top-\[20vh\] {
+  top: 20vh;
+}
+
+.left-\[18vw\] {
+  left: 18vw;
+}
+
+.top-\[10vh\] {
+  top: 10vh;
+}
+
+.left-\[42vw\] {
+  left: 42vw;
+}
+
+.top-\[-43vh\] {
+  top: -43vh;
+}
+
+.left-\[65vw\] {
+  left: 65vw;
+}
+
+.top-\[-85vh\] {
+  top: -85vh;
+}
+
+.top-\[-70vh\] {
+  top: -70vh;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.right-\[10w\] {
+  right: 10w;
+}
+
+.right-\[15\] {
+  right: 15;
+}
+
+.right-\[5vw\] {
+  right: 5vw;
+}
+
+.right-\[15vw\] {
+  right: 15vw;
+}
+
+.right-\[1vw\] {
+  right: 1vw;
+}
+
+.right-\[14vw\] {
+  right: 14vw;
+}
+
+.right-\[16vw\] {
+  right: 16vw;
+}
+
+.right-\[18vw\] {
+  right: 18vw;
+}
+
+.right-\[20vw\] {
+  right: 20vw;
+}
+
+.right-\[vw\] {
+  right: vw;
+}
+
+.right-\[24vw\] {
+  right: 24vw;
+}
+
+.right-\[\] {
+  right: ;
+}
+
+.right-\[30vw\] {
+  right: 30vw;
+}
+
+.right-\[22vw\] {
+  right: 22vw;
+}
+
+.right-\[13vw\] {
+  right: 13vw;
+}
+
+.right-\[21vw\] {
+  right: 21vw;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.left-\[6vw\] {
+  left: 6vw;
+}
+
+.left-\[5\.5vw\] {
+  left: 5.5vw;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[4vw\] {
+  left: 4vw;
+}
+
+.top-\[4vh\] {
+  top: 4vh;
+}
+
+.left-\[10vw\] {
+  left: 10vw;
+}
+
+.top-\[14vh\] {
+  top: 14vh;
+}
+
+.left-\[20vw\] {
+  left: 20vw;
+}
+
+.left-\[40vw\] {
+  left: 40vw;
+}
+
+.left-\[30vw\] {
+  left: 30vw;
+}
+
+.left-\[35vw\] {
+  left: 35vw;
+}
+
+.top-\[vh\] {
+  top: vh;
+}
+
+.top-\[1vh\] {
+  top: 1vh;
+}
+
+.top-\[-4vh\] {
+  top: -4vh;
+}
+
+.top-\[-8vh\] {
+  top: -8vh;
+}
+
+.top-\[-14vh\] {
+  top: -14vh;
+}
+
+.top-\[-18vh\] {
+  top: -18vh;
+}
+
+.top-\[-vh\] {
+  top: -vh;
+}
+
+.top-\[-22vh\] {
+  top: -22vh;
+}
+
+.left-\[vw\] {
+  left: vw;
+}
+
+.left-\[36vw\] {
+  left: 36vw;
+}
+
+.top-\[-20vh\] {
+  top: -20vh;
+}
+
+.top-\[-24vh\] {
+  top: -24vh;
+}
+
+.top-\[-26vh\] {
+  top: -26vh;
+}
+
+.top-\[-28vh\] {
+  top: -28vh;
+}
+
+.top-\[12vh\] {
+  top: 12vh;
+}
+
+.top-\[13vh\] {
+  top: 13vh;
+}
+
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-6 {
+  left: 1.5rem;
+}
+
+.left-8 {
+  left: 2rem;
+}
+
+.left-\[1\] {
+  left: 1;
+}
+
+.left-\[50vw\] {
+  left: 50vw;
+}
+
+.left-\[7vw\] {
+  left: 7vw;
+}
+
+.left-\[6\.5vw\] {
+  left: 6.5vw;
+}
+
+.left-\[5\.8vw\] {
+  left: 5.8vw;
+}
+
+.left-\[5vw\] {
+  left: 5vw;
+}
+
+.left-\[5\.2vw\] {
+  left: 5.2vw;
+}
+
+.left-\[4\.5vw\] {
+  left: 4.5vw;
+}
+
+.left-\[3\.8vw\] {
+  left: 3.8vw;
+}
+
 .z-\[1\] {
   z-index: 1;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .float-right {
@@ -1105,6 +893,18 @@ video {
   margin-right: 2vw;
 }
 
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1121,64 +921,128 @@ video {
   height: 8vh;
 }
 
-.h-1 {
-  height: 0.25rem;
+.h-48 {
+  height: 12rem;
 }
 
-.h-\[0\.5hv\] {
-  height: 0.5hv;
+.h-\[85vh\] {
+  height: 85vh;
 }
 
-.h-\[0\.5vh\] {
-  height: 0.5vh;
+.h-\[55vh\] {
+  height: 55vh;
 }
 
-.h-\[0\.25vh\] {
-  height: 0.25vh;
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-\[100vw\] {
   width: 100vw;
 }
 
+.w-\[3\.25vw\] {
+  width: 3.25vw;
+}
+
+.w-\[48vh\] {
+  width: 48vh;
+}
+
+.w-\[19vw\] {
+  width: 19vw;
+}
+
+.w-\[19\.5vw\] {
+  width: 19.5vw;
+}
+
+.w-\[20vw\] {
+  width: 20vw;
+}
+
+.w-\[15vw\] {
+  width: 15vw;
+}
+
 .w-\[\] {
   width: ;
 }
 
-.w-\[0\.25v\] {
-  width: 0.25v;
+.w-\[10vw\] {
+  width: 10vw;
 }
 
-.w-\[0\.25vw\] {
-  width: 0.25vw;
+.w-\[vw\] {
+  width: vw;
 }
 
-.w-\[1\.25vw\] {
-  width: 1.25vw;
+.w-\[5vw\] {
+  width: 5vw;
 }
 
-.w-\[7\.25vw\] {
-  width: 7.25vw;
+.w-\[2vw\] {
+  width: 2vw;
 }
 
-.w-\[5\.25vw\] {
-  width: 5.25vw;
+.w-\[-2vw\] {
+  width: -2vw;
 }
 
-.w-\[3\.25vw\] {
-  width: 3.25vw;
+.w-\[1vw\] {
+  width: 1vw;
+}
+
+.w-\[8vw\] {
+  width: 8vw;
+}
+
+.w-\[6vw\] {
+  width: 6vw;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
 }
 
 .flex-row {
   flex-direction: row;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
+.gap-5 {
+  gap: 1.25rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .bg-white {
@@ -1196,68 +1060,76 @@ video {
   background-color: rgb(236 125 21 / var(--tw-bg-opacity));
 }
 
+.bg-opacity-25 {
+  --tw-bg-opacity: 0.25;
+}
+
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .p-\[2\.5vw\] {
   padding: 2.5vw;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pl-\[15vw\] {
+  padding-left: 15vw;
+}
+
+.pt-\[10vh\] {
+  padding-top: 10vh;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-right {
   text-align: right;
 }
 
-.font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.font-\[\] {
-  font-family: ;
-}
-
-.font-\[\'Lobster\'\] {
-  font-family: 'Lobster';
-}
-
-.font-\[Lobster\] {
-  font-family: Lobster;
-}
-
-.font-\[Teko\] {
-  font-family: Teko;
-}
-
 .font-\[sans\] {
   font-family: sans;
-}
-
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-\[serif\] {
-  font-family: serif;
-}
-
-.text-\[4vh\] {
-  font-size: 4vh;
-}
-
-.text-\[20vh\] {
-  font-size: 20vh;
-}
-
-.text-\[18vh\] {
-  font-size: 18vh;
 }
 
 .text-\[17vh\] {
   font-size: 17vh;
 }
 
-.text-\[16vh\] {
-  font-size: 16vh;
+.text-\[4vh\] {
+  font-size: 4vh;
 }
 
-.text-\[2vh\] {
-  font-size: 2vh;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -1268,92 +1140,72 @@ video {
   font-weight: 800;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .not-italic {
   font-style: normal;
-}
-
-.leading-tight {
-  line-height: 1.25;
-}
-
-.leading-snug {
-  line-height: 1.375;
-}
-
-.leading-\[\] {
-  line-height: ;
-}
-
-.leading-\[-\] {
-  line-height: -;
-}
-
-.leading-\[-4vh\] {
-  line-height: -4vh;
-}
-
-.leading-\[4vh\] {
-  line-height: 4vh;
-}
-
-.leading-\[2vh\] {
-  line-height: 2vh;
-}
-
-.leading-\[1vh\] {
-  line-height: 1vh;
-}
-
-.leading-\[1\.vh\] {
-  line-height: 1.vh;
-}
-
-.leading-\[1\.5vh\] {
-  line-height: 1.5vh;
-}
-
-.leading-\[vh\] {
-  line-height: vh;
-}
-
-.leading-\[5vh\] {
-  line-height: 5vh;
-}
-
-.leading-\[10vh\] {
-  line-height: 10vh;
-}
-
-.leading-\[12vh\] {
-  line-height: 12vh;
-}
-
-.leading-\[14vh\] {
-  line-height: 14vh;
 }
 
 .leading-\[15vh\] {
   line-height: 15vh;
 }
 
-.tracking-wide {
-  letter-spacing: 0.025em;
+.leading-7 {
+  line-height: 1.75rem;
 }
 
-.tracking-widest {
-  letter-spacing: 0.1em;
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[4vh\] {
+  line-height: 4vh;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 .tracking-wider {
   letter-spacing: 0.05em;
 }
 
-.tracking-tighter {
-  letter-spacing: -0.05em;
+.tracking-\[\] {
+  letter-spacing: ;
 }
 
-.tracking-tight {
-  letter-spacing: -0.025em;
+.tracking-\[4vw\] {
+  letter-spacing: 4vw;
+}
+
+.tracking-\[1vw\] {
+  letter-spacing: 1vw;
+}
+
+.tracking-\[-1vw\] {
+  letter-spacing: -1vw;
+}
+
+.tracking-\[0\2c vw\] {
+  letter-spacing: 0,vw;
+}
+
+.tracking-\[0\.3vw\] {
+  letter-spacing: 0.3vw;
+}
+
+.tracking-\[0\.1vw\] {
+  letter-spacing: 0.1vw;
 }
 
 .text-white {
@@ -1361,15 +1213,34 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.text-\[vh\] {
-  color: vh;
+.text-orange-500 {
+  --tw-text-opacity: 1;
+  color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.text-gray-800 {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+.text-\[\#f8fafc\] {
+  --tw-text-opacity: 1;
+  color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+
+.text-\[\#514f4f\] {
+  --tw-text-opacity: 1;
+  color: rgb(81 79 79 / var(--tw-text-opacity));
+}
+
+@media (max-width: 640px) {
+  .max-\[640px\]\:text-\[\#000\] {
+    --tw-text-opacity: 1;
+    color: rgb(0 0 0 / var(--tw-text-opacity));
+  }
 }

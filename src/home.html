@@ -13,9 +13,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./../Build/style.css">
+    <script src="../src/home.js"></script>
+
+    <!-- Terminal access was readonly -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 <body class="bg-white">
-    <div class="bg-black h-16 w-[100vw] fixed z-[1] text-white">
+    <div class="bg-black h-16 w-[100vw] fixed text-white">
         <header>  
           <a href="#" class="float-left relative top-2 left-3 w-[3.25vw]"><img src="./../Assets/logo.svg" alt="" srcset=""></a>
           <div class="bg-[#EC7D15] h-16 float-right mr-[4vw]"><a href="#" class="relative top-4 p-[2.5vw] font-bold">Gallery</a></div> 
@@ -25,7 +30,7 @@
           <a href="#" class="float-right m-4 font-bold mr-[2vw]">Home</a>
         </header>
     </div>
-    <div>
+    <div class="w-[100vw]">
         <div>
             <img class="relative top-[11vh] left-12 h-[80vh]" src="./../Assets/homepageimg.svg" alt="" srcset="">
             <h1 class="float-right relative top-[-50vh] right-[10vw] not-italic font-[800] font-[sans] text-[17vh] text-right leading-[15vh] tracking-wide">Hi Tech <br> Designers</h1>
@@ -163,10 +168,133 @@
         <div class="swiper-button-prev swiper-navBtn"></div>
         <div class="swiper-pagination"></div>
     </div>
+<div class="min-h-screen flex items-center relative left-[21vw]" style="margin-top: -19vh;">
+          <div class="max-w-3xl p-4">
+            <h2 class="text-3xl font-bold text-center text-orange-500 uppercase" style="margin-bottom: 20px;">About Us</h2>
+            <p class="font-oxygen font-bold text-lg leading-7 text-center text-gray-800 pb-3">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium porem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </p>
+            <p class="font-oxygen font-bold text-lg leading-7 text-center text-gray-800 pb-3">
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            </p>
+          </div>
+        </div>
+        <div class="relative top-150vh left-10vh w-14vw h-100vh bg-white flex flex-col items-center justify-center p-10" style="background: #EC7D15;">
+          <h1 class="font-work-sans font-extrabold text-3xl tracking-wider uppercase text-white relative z-10">OUR SERVICES</h1>
+          <div class="flex flex-row gap-5 mt-9">
+            <div class="rounded-lg overflow-hidden flex flex-col items-center justify-end p-3 h-48">
+              <img src="./../Assets/image1.png" alt="Image 1" class="w-[48vh] h-48 object-contain">
+              <p class="bg-black bg-opacity-25 w-[19vw] text-white text-center py-2 mt-2" style="margin-top: -44.9px;">Building Plan</p>
+            </div>
+            <div class="rounded-lg overflow-hidden flex flex-col items-center justify-end p-3 h-48">
+              <img src="./../Assets/image2.png" alt="Image 1" class="w-[48vh] h-48 object-contain">
+              <p class="bg-black bg-opacity-25 w-[19vw] text-white text-center py-2 mt-2" style="margin-top: -44.9px;">Interior Works</p>
+            </div>
+            <div class="rounded-lg overflow-hidden flex flex-col items-center justify-end p-3 h-48">
+              <img src="./../Assets/image3.png" alt="Image 1" class="w-[48vh] h-48 object-contain">
+              <p class="bg-black bg-opacity-25 w-[19vw]  text-white text-center py-2 mt-2" style="margin-top: -44.7px;">3D Modelling</p>
+            </div>
+          </div>
+          <div class="flex gap-8 mt-8">
+            <div class="rounded-lg overflow-hidden flex flex-col items-center justify-end p-3 h-48">
+              <img src="./../Assets/image5.png" alt="Image 1" class="w-[48vh] h-48 object-contain">
+              <p class="bg-black bg-opacity-25 w-[19.5vw] text-white text-center py-2 mt-2" style="margin-top: -44.9px;">Electrical & Plumbing</p>
+            </div>
+            <div class="rounded-lg overflow-hidden flex flex-col items-center justify-end p-3 h-48">
+              <img src="./../Assets/image6.png" alt="Image 1" class="w-[48vh] h-48 object-contain">
+              <p class="bg-black bg-opacity-25 w-[19.5vw] text-white text-center py-2 mt-2" style="margin-top: -44.9px;">Landscape Works</p>
+            </div>
+          </div>
+        </div>
+
+<div class="w-[100vw]">
+     
+    <div class="flex relative top-[20vh] left-[18vw] justify-between">
+        <img class="w-[20vw]" src="../Assets/test-1.png" alt="Image 1">
+        <img class="w-[20vw]" src="../Assets/test-2.png" alt="Image 2">
+        <img class="w-[20vw]" src="../Assets/test-3.png" alt="Image 3">
+      </div>
+      
+</div>
+
+
+
+
+
+
+
+<div class="bg-black relative top-[20vh] w-[100vw] h-[85vh]">
+    
+    <section class=" text-[#f8fafc] pl-[15vw] pt-[10vh]">
+        <form>
+            <label for="name">Name:</label><br>
+            <div class="hover-effect">
+                <input type="text" placeholder="name...">
+              </div>
+              
+
+            
+
+            <br>
+            <br>
+            
+            <label for="number">Contact no:</label><br>
+            <div class="hover-effect">
+                <input type="email" placeholder="contact number...">
+              </div>
+            <br><br>
+            
+            <label for="message">Requirements:<label><br>
+            <div class="hover-effects">
+                <textarea placeholder="type here.." height="20px"></textarea>
+            </div>
+             <br>
+            <div class="relative top-[10vh]">
+                <button class="submit-button" type="submit">Submit</button>
+
+            </div>
+            
+        </form>
+    </section>
+
+
+    <section class="text-[#f8fafc] max-[640px]:text-[#000] relative left-[42vw] top-[-43vh] w-[15vw]">
+
+        
+        <label>Phone No:</label><br>
+        <label>9567842356</label>
+        <br><br>
+
+        <label>Email ID:</label><br>
+        <label>hitechdenrs@gmail.com</label>
+        <br><br>
+
+        <label>Address:<br>
+            Building 209,
+            XYZ Lane,<br> This Town, <br> Pin 256345</label>
+        <br>
+
+    </section>
+
+
+    <section class="relative left-[65vw] top-[-85vh]">
+        <img class="h-[55vh] w-[20vw]" src="../Assets/map.svg" alt="" >
+    </section>
+
+    <div class="text-[#514f4f] text-center relative top-[-70vh]">
+       <p>© 2023 All Rights Reserved | Hi Tech Designers</p>
+    </div>
+    
+    
+
+        
+</div>
     <!-- Swiper JS -->
     <script src="js/swiper-bundle.min.js"></script>
 
     <!-- JavaScript -->
     <script src="js/script.js"></script>
 </body>
+<script>
+</script>
 </html>
