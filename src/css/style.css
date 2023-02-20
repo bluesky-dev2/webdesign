@@ -15,10 +15,16 @@ body{
   background-color: #EFEFEF;
 } */
 .slide-container{
+  /* background-color: #EC7D15; */
+  border-radius: 10%;
+  border : 5px solid #EC7D15;
   position: relative;
-  top: 5vh;
-  max-width: 1120px;
-  width: 100%;
+  margin-top: 18vh;
+  margin-bottom: 20vh;
+  top: 20vh;
+  right: 0.5vw;
+  height: 45vh;
+  width: 95vw;
   padding: 40px 0;
 }
 .slide-content{

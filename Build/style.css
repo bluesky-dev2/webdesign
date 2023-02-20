@@ -50,15 +50,15 @@
   
 
   /*to hover submit */
-  .submit-button {
-    background-color: #007bff;
+  .submit-button{
+    background-color: #0062cc;
     color: #fff;
     font-size: 16px;
     padding: 12px 24px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
+    /* transition: background-color 0.3s ease-in-out; */
   }
   
   .submit-button:hover {
