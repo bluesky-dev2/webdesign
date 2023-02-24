@@ -517,16 +517,12 @@ video {
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
 }
 
-.top-2 {
-  top: 0.5rem;
+.top-1 {
+  top: 0.25rem;
 }
 
 .left-3 {
@@ -589,20 +585,20 @@ video {
   top: 10vh;
 }
 
+.left-\[15vw\] {
+  left: 15vw;
+}
+
 .left-\[36vw\] {
   left: 36vw;
 }
 
-.top-\[-28vh\] {
-  top: -28vh;
+.top-\[-29vh\] {
+  top: -29vh;
 }
 
 .left-\[65vw\] {
   left: 65vw;
-}
-
-.top-\[-85vh\] {
-  top: -85vh;
 }
 
 .top-\[-70vh\] {
@@ -697,10 +693,6 @@ video {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .h-16 {
   height: 4rem;
 }
@@ -733,20 +725,24 @@ video {
   width: 100vw;
 }
 
-.w-\[52px\] {
-  width: 52px;
+.w-\[35px\] {
+  width: 35px;
 }
 
 .w-\[58px\] {
   width: 58px;
 }
 
-.w-\[500px\] {
-  width: 500px;
+.w-\[48vh\] {
+  width: 48vh;
 }
 
-.w-\[245px\] {
-  width: 245px;
+.w-\[19vw\] {
+  width: 19vw;
+}
+
+.w-\[19\.5vw\] {
+  width: 19.5vw;
 }
 
 .w-\[20vw\] {
@@ -755,10 +751,6 @@ video {
 
 .w-\[15vw\] {
   width: 15vw;
-}
-
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .grid-cols-4 {
@@ -803,6 +795,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded-full {
@@ -977,12 +973,4 @@ video {
 .text-\[\#514f4f\] {
   --tw-text-opacity: 1;
   color: rgb(81 79 79 / var(--tw-text-opacity));
-}
-
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
