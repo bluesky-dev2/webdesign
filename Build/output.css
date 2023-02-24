@@ -517,6 +517,10 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
@@ -693,6 +697,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -725,24 +733,20 @@ video {
   width: 100vw;
 }
 
-.w-\[3\.25vw\] {
-  width: 3.25vw;
+.w-\[52px\] {
+  width: 52px;
 }
 
 .w-\[58px\] {
   width: 58px;
 }
 
-.w-\[48vh\] {
-  width: 48vh;
+.w-\[500px\] {
+  width: 500px;
 }
 
-.w-\[19vw\] {
-  width: 19vw;
-}
-
-.w-\[19\.5vw\] {
-  width: 19.5vw;
+.w-\[245px\] {
+  width: 245px;
 }
 
 .w-\[20vw\] {
@@ -751,6 +755,10 @@ video {
 
 .w-\[15vw\] {
   width: 15vw;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .grid-cols-4 {
@@ -969,4 +977,12 @@ video {
 .text-\[\#514f4f\] {
   --tw-text-opacity: 1;
   color: rgb(81 79 79 / var(--tw-text-opacity));
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
