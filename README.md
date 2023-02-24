@@ -4,9 +4,10 @@
 
 ## Requirements:
 ###   1. A Home Page
-###   2. Serive Offered
+###   2. Service Offered
 ###   3. About Us
 ###   4. Contact Us
+###   5. Gallery
 
 
 ## Tech Stack:
