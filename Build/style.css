@@ -1,6 +1,9 @@
 
 /*to hover input fields*/
-
+body{
+  display: flex;
+  flex-direction: column;
+}
 .hover-effect {
     display: inline-block;
     position: relative;
@@ -14,13 +17,11 @@
     transition: all 0.3s ease;
     background-color: transparent;
   }
-  
-  .hover-effect input:hover, .hover-effect input:focus {
+  .hover-effect input:hover, .hover-effect input:focus{
     outline: none;
     border-bottom-color: #0e68b2;
     width: 200px;
   }
-  
   /* to hover textarea */
   .hover-effects{
     display: inline-block;
