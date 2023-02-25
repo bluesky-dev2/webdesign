@@ -4,6 +4,11 @@ const nextBtn = document.querySelector('.next');
 const sliderDots = document.querySelector('.slider-dots');
 let currentImage = 0;
 
+function clipboard(){
+    navigator.clipboard.writeText(9447989505);
+    alert("Copied Hitech Designer's Phone Number to your device");
+}
+
 function reset() {
     for (let i = 0; i < sliderImages.length; i++) {
         sliderImages[i].classList.remove('active');
