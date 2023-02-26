@@ -194,7 +194,7 @@ body{
     transform: translateY(-50%);
     font-size: 2rem;
     font-weight: bold;
-    color: #ffffff;
+    color: #fff6f6;
     cursor: pointer;
     z-index: 1;
   }
@@ -231,3 +231,90 @@ body{
   .slider-dot.active {
     background-color: #ffffff;
   }
+
+
+
+  /*media query for mobile phones*/
+ 
+  /* contact */
+
+
+  /* For screens smaller than 768px (mobile devices) */
+@media only screen and (max-width:480px) {
+
+  body{
+    overflow: hidden;
+  }
+
+  /* Adjust the width and left margin of the form section */
+  .div22 {
+    width: 50%;
+    left: 35%;
+    top: 1%;
+   
+  }
+  /*adjust submit button*/
+
+  .div_26{
+   width: 10%;
+   height: auto;
+   left: 40%;
+   top: 4%;
+  }
+
+  /* Adjust the left margin of the contact details section */
+  .div26{
+    display: block;
+    left: 10%;
+    top:3%;
+    margin-bottom: 5px;
+    
+  }
+
+  /* Adjust the position and font size of the footer */
+  .div_27 {
+    top: -35vh;
+    font-size: 0.8em;
+  }
+
+  /* Adjust the font size and line height of the label elements */
+  .div26 label {
+    font-size: 0.5em;
+    line-height: 1;
+  }
+
+  /* Adjust the height and font size of the input and textarea elements */
+  input[type="text"], input[type="email"], textarea {
+    height: 30px;
+    font-size: 0.8em;
+  }
+
+  /* Adjust the margin and font size of the submit button */
+  .submit-button {
+    margin-top: 10px;
+    font-size: 0.8em;
+  }
+
+
+  .div27{
+    display: none;
+    margin-left: -35%;
+    top: -45%;
+    width:25%;
+    
+  }
+
+/*slider container*/
+.slider-container {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+  
+}
+
+
+
