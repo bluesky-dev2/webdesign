@@ -1,5 +1,5 @@
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:480px) {
   /* For mobile phones: */
 
   .bg_img{
@@ -99,6 +99,8 @@
   }
 
 }
+
+
 
 /*to hover input fields*/
 body{
@@ -239,48 +241,96 @@ body{
   /* contact */
 
 
-  /* For screens smaller than 768px (mobile devices) */
+  /* For screens smaller than 768px (mobile devices)*/ 
 @media only screen and (max-width:480px) {
 
-  body{
-    overflow: hidden;
-  }
 
   /* Adjust the width and left margin of the form section */
   .div22 {
-    width: 50%;
-    left: 35%;
+    float:left;
+    width: 65%;
+    height: 50%;
+    left: 25%;
     top: 1%;
+    border: 1px solid rgb(105, 105, 105);
+    background-color: rgb(105, 105, 105);
+    border-radius: 25px;
    
   }
+
+  .div_23{
+    left: 5%;
+  }
+  .div_24{
+    left: 5%;
+  }
+  .div_25{
+    left: 5%;
+  }
+
+  .div23{
+    padding-left: 5%;
+  }
+
+  .div24{
+    padding-left: 5%;
+  }
+
+  .div25{
+    padding-left: 5%;
+  }
+
+  
+
+  
+
+
+
   /*adjust submit button*/
 
   .div_26{
    width: 10%;
-   height: auto;
-   left: 40%;
-   top: 4%;
+   height: 10%;
+   left: 36%;
+   top:4%;
   }
 
   /* Adjust the left margin of the contact details section */
   .div26{
     display: block;
-    left: 10%;
-    top:3%;
+    left: -55%;
+    top:52%;
     margin-bottom: 5px;
+    float: left;
+    font-size: 20px;
     
   }
 
-  /* Adjust the position and font size of the footer */
-  .div_27 {
-    top: -35vh;
-    font-size: 0.8em;
+  #div261{
+    height: 75px;
+  }
+  #div262{
+    height: 75px;
+  }
+  #div263{
+    height: 75px;
   }
 
-  /* Adjust the font size and line height of the label elements */
+
+
+
+  /* Adjust the position and font size of the footer*/ 
+  .div_27 {
+    top: 86vh;
+    font-size:7px;
+   left: -40%;
+   
+  }
+
+  /* Adjust the font size and line height of the label elements*/ 
   .div26 label {
     font-size: 0.5em;
-    line-height: 1;
+    line-height:2;
   }
 
   /* Adjust the height and font size of the input and textarea elements */
@@ -289,7 +339,7 @@ body{
     font-size: 0.8em;
   }
 
-  /* Adjust the margin and font size of the submit button */
+  /* Adjust the margin and font size of the submit button*/ 
   .submit-button {
     margin-top: 10px;
     font-size: 0.8em;
@@ -297,10 +347,13 @@ body{
 
 
   .div27{
-    display: none;
+    display:none;
+    width: -150%;
+    height: -40%;
     margin-left: -35%;
-    top: -45%;
+    top: 5%;
     width:25%;
+    line-height: -150%;
     
   }
 
@@ -314,6 +367,69 @@ body{
 }
 
   
+}
+
+
+/* testimonials*/
+
+
+.testimonials-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.testimonial-slide {
+  flex: 0 0 auto;
+  width: 100%;
+  scroll-snap-align: start;
+}
+
+@media (min-width: 481px) {
+  .testimonials-slider {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .testimonial-slide {
+    flex-basis: 20%;
+  }
+}
+
+/* testimonails again */
+
+.testimonials-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  margin: 0 10px;
+}
+
+.testimonial img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .testimonials-section {
+    flex-direction: column;
+  }
+
+  .testimonial {
+    margin: 10px 0;
+    text-align: center;
+  }
 }
 
 
