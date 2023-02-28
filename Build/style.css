@@ -1,3 +1,77 @@
+@media only screen and (max-width:820px){
+  .bg_img{
+    display : none;
+  }
+
+  .main_hd{
+    font-size: 88px;
+    position: relative;
+    padding-left: 40px;
+    line-height: 100%;
+    margin-bottom: 10px;
+  }
+
+  .div_10{
+    width: 100%;
+    height: 80px;
+    font-size: 28px;
+  }
+
+  .text1{ /*we have experience banner*/
+    word-spacing: 3px;
+    position: relative;
+    top: 13.5px;
+    float: left;
+    left: 18px;
+  }
+
+  .text_2{ /*about us*/
+    position: relative;
+    right: 27px;
+    font-size: 28px;
+  }
+
+  .text_3{/*about us para*/
+    position: relative;
+    left: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 30px;
+    max-width: 90%;
+  }
+
+  .div_13{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    right: 20px;
+  }
+
+  .div_17{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    right: 20px;
+  }
+
+  .ser_1{
+    object-fit: fill;
+    max-width: 100%;
+
+  }
+  .banner_1, .banner_2, .banner_3{
+    width: 94%;
+  }
+
+  .banner_4, .banner_5, .banner_6{
+    width: 95%;
+  }
+}
+
 
 @media only screen and (max-width:480px) {
   /* For mobile phones: */
