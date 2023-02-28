@@ -32,8 +32,8 @@
             <h1 class="main_hd mr-[80px] mt-[38px] not-italic font-[800] font-[sans] text-[17vh] text-right leading-[15vh] tracking-wider">Hi Tech <br> Designers</h1>
           </div>
           <div class="div_6 grid grid-cols-4 col-start-2 col-end-3 row-start-2 row-end-3 mt-[30px]">
-              <div class="div_7 w-[58px] h-[58px] border-4 border-[#EC7D15] rounded-full"><img class="ig_icon relative top-[8px] left-[10px]" src="Assets/instagram.svg" alt=""></div>
-              <div class="div_8 w-[58px] h-[58px] border-4 border-[#EC7D15] rounded-full"><img class="twt_icon relative top-[9px] left-[10px]" src="Assets/twitter.svg" alt=""></div>
+              <div class="div_7 w-[58px] h-[58px] border-4 border-[#EC7D15] rounded-full"><img class="ig_icon relative top-[9px] left-[10px]" src="Assets/instagram.svg" alt=""></div>
+              <div class="div_8 w-[58px] h-[58px] border-4 border-[#EC7D15] rounded-full"><img class="twt_icon relative top-[10px] left-[10px]" src="Assets/twitter.svg" alt=""></div>
               <img class="fb_icon ig_icon relative top-[8px] left-[10px]" src="Assets/facebook.svg" alt="">
               <div class="div_9 w-[58px] h-[58px] border-4 border-[#EC7D15] rounded-full cursor-pointer"><img onclick="clipboard()" class="ph_icon relative top-[8px] left-[10px]" src="Assets/phsym.svg" alt=""></div>
           </div>
@@ -84,13 +84,55 @@
       </div>
     </div>
   </div>
-  <div id="testimonials" class="div_20 w-[100vw] h-[50vh]">
-      <div class="div_21 flex relative top-[20vh] left-[18vw] justify-between">
-          <img class="relative right-[13vw] w-[20vw]" src="Assets/test-1.png" alt="Image 1">
-          <img class="relative right-[21vw] w-[20vw]" src="Assets/test-2.png" alt="Image 2">
-          <img class="relative right-[30vw] w-[20vw]" src="Assets/test-3.png" alt="Image 3">
-        </div>
+
+  <!-- ////////////////////////////testimonials/////////////////////// -->
+
+<h1 class="text-black">Testimonial</h1>
+<div class="testimonials-section">
+  <div class="testimonial">
+    <img src="./Assets/image1.png" alt="Testimonial Image">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et hendrerit est. Pellentesque bibendum nisi et tortor consectetur varius.</p>
+    <h3>John Doe</h3>
+    <p>CEO, Acme Corporation</p>
   </div>
+  <div class="testimonial">
+    <img src="./Assets/image1.png" alt="Testimonial Image">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et hendrerit est. Pellentesque bibendum nisi et tortor consectetur varius.</p>
+    <h3>Jane Doe</h3>
+    <p>CTO, Acme Corporation</p>
+  </div>
+  <div class="testimonial">
+    <img src="./Assets/image1.png" alt="Testimonial Image">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et hendrerit est. Pellentesque bibendum nisi et tortor consectetur varius.</p>
+    <h3>Jane Doe</h3>
+    <p>CTOm, Acme Corporation</p>
+  </div>
+  
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+  const testimonialsSlider = new Glide('.testimonials-section', {
+    type: 'carousel',
+    perView: 1,
+    autoplay: 5000,
+    hoverpause: true,
+    animationDuration: 500,
+    gap: 20,
+    breakpoints: {
+      480: {
+        perView: 1
+      }
+    }
+  });
+
+  testimonialsSlider.mount();
+</script>
+
+
+  <!-- ////////////////////////////Ending/////////////////////// -->
+
 
   <div class="w-[99vw] h-[100vh] bg-[#EC7D15] relative top-[220px] flex items-center" id="Gallery">
     <div class="slider-container">
@@ -110,55 +152,57 @@
   <div id="contactus" class="div_22 bg-black relative top-[210px] w-[100vw] h-[85vh]">
       
     <section class="div22 text-[#f8fafc] relative w-[15vw] left-[10vw] top-[14vh]">
-        <form>
-            <label for="name">Name:</label><br>
+            <label for="name" class="div23">Name:</label><br>
             <div class="div_23 hover-effect">
                 <input type="text" placeholder="name...">
               </div>
             <br>
             <br>           
-            <label for="number">Contact no:</label><br>
+            <label for="number"  class="div24">Contact no:</label><br>
             <div class="div_24 hover-effect">
                 <input type="email" placeholder="contact number...">
               </div>
             <br><br>
             
-            <label for="message">Requirements:<label><br>
+            <label for="message" class="div25">Requirements:<label><br>
             <div class="div_25 hover-effects">
                 <textarea placeholder="type here.." height="20px"></textarea>
             </div>
-        </form>
+
+
+
+          <div class="div_26 relative top-[60px] left-[90px]">
+            <button class="submit-button" type="submit">Submit</button>
+          </div>
     </section>
-
-    <div class="div_26 relative top-[20vh] left-[15vw]">
-      <button class="submit-button" type="submit">Submit</button>
-    </div>
-
 
     <section class="div26 text-[#f8fafc] leading-[4vh] tracking-[0.1vw] relative left-[36vw] top-[-29vh] w-[15vw]">
 
           
-          <label>Phone No:</label><br>
-          <label>9567842356</label>
-          <br><br>
+      <div id="div261">
+        <pre><label>Phone No:</label>
+        <label>9567842356</label>
+        </pre><br>
+      </div>
 
-          <label>Email ID:</label><br>
-          <label>hitechdenrs@gmail.com</label>
-          <br><br>
+      <div id="div262">
+        <pre><label>Email ID:</label>
+        <label>hitechdenrs@gmail.com</label>
+      </pre><br>
+      </div>
+      <div id="div262">
+        <pre><label>Email ID:</label>
+        <label>hitechdenrs@gmail.com</label>
+        </pre><br>
+      </div>
+    </section>
 
-          <label>Address:<br>
-              Building 209,
-              XYZ Lane,<br> This Town, <br> Pin 256345</label>
-          <br>
 
-      </section>
-
-
-    <section class="div27 relative left-[65vw] top-[-70vh] w-[15vw]">
+    <section class="div27 relative left-[65vw] top-[-90vh] w-[15vw]">
         <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d15214.706104786728!2d77.34518344427603!3d11.10348433594266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3ba907bcf3bfdb99%3A0x76be7118b76c8484!2s320%2F2%2C%202nd%20Floor%2C%20Kumar%20Xerox%20Building%2C%20Mangalam%20Rd%2C%20opp.%20Corporation%20Office%2C%20Tiruppur%2C%20Tamil%20Nadu%20641604!3m2!1d11.1004971!2d77.34629!5e0!3m2!1sen!2sin!4v1676917201448!5m2!1sen!2sin" width="300" height="300" style="border-radius:15%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
-      <div class="div_27 text-[#514f4f] text-center relative bottom-[350px]">
+      <div class="div_27 text-[#514f4f] text-center relative bottom-[400px]">
         <p>© 2023 All Rights Reserved | Hi Tech Designers</p>
       </div>    
   </div>
