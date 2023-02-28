@@ -241,11 +241,6 @@ body{
 
   /* For screens smaller than 768px (mobile devices) */
 @media only screen and (max-width:480px) {
-/* 
-  body{
-    overflow: hidden;
-  }
- */
   /* Adjust the width and left margin of the form section */
   .div22 {
     width: 50%;
