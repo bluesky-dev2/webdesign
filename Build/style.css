@@ -1,4 +1,22 @@
-@media only screen and (max-width:1000px){
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@300&family=Work+Sans:wght@800&display=swap');
+
+
+.main_hd{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 99%;
+  /* or 127px */
+  
+  text-align: right;
+  letter-spacing: 0.04em;
+  
+  color: #000000;
+}
+
+@media only screen and (max-width:820px){
   .bg_img{
     display : none;
   }
@@ -457,8 +475,19 @@ body{
     border-radius: 50%;
     margin-bottom: 10px;
   }
+  
+
+
+  
+  
+
+  /*media query for mobile phones*/
+ 
+  /* contact */
+
+
   /* For screens smaller than 768px (mobile devices) */
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:500px) {
   /* Adjust the width and left margin of the form section */
   .div_22{
     height: 120vh;
@@ -598,8 +627,10 @@ body{
 .testimonial {
   margin: 10px 0;
   text-align: center;
-  
 }
+
+  
+
 
 /*Testimonials Heading*/
 .text_test{
