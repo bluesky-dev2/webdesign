@@ -1,12 +1,12 @@
-@media only screen and (max-width:820px){
+@media only screen and (max-width:1000px){
   .bg_img{
     display : none;
   }
 
   .main_hd{
     font-size: 88px;
-    position: relative;
-    padding-left: 40px;
+    margin-left: 12vw;
+    margin-right: 12vw;
     line-height: 100%;
     margin-bottom: 10px;
   }
@@ -21,19 +21,19 @@
     word-spacing: 3px;
     position: relative;
     top: 13.5px;
-    float: left;
     left: 18px;
   }
 
   .text_2{ /*about us*/
     position: relative;
-    right: 27px;
+    left: 0vw;
     font-size: 28px;
   }
 
   .text_3{/*about us para*/
     position: relative;
-    left: 10px;
+    left: 4vw;
+    margin-bottom: 200px;
     font-size: 24px;
     font-weight: normal;
     padding: 30px;
@@ -64,16 +64,47 @@
 
   }
   .banner_1, .banner_2, .banner_3{
-    width: 94%;
+    width: 95%;
   }
 
   .banner_4, .banner_5, .banner_6{
     width: 95%;
   }
+
+  .div27{
+    position: relative;
+    bottom: 50vh;
+    left: 70vw;
+    margin-right: 100px;
+   }
+ 
+   .map_iframe{
+     position: relative;
+     right: 10vw;
+     bottom:10vw;
+     width: 240px;
+     height: 240px;
+     
+   }
+
+   .div26{
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  .text_test{
+ position: relative;
+ right: 35vw;
+  }
+
+  .footer_text{
+    margin-top: 9px;
+  }
 }
 
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:500px) {
   /* For mobile phones: */
 
   .bg_img{
@@ -86,7 +117,7 @@
   .main_hd{
     font-size: 53px;
     position: relative;
-    padding-left: 40px;
+    left: 8vw;
     line-height: 100%;
     margin-bottom: 10px;
   }
@@ -94,21 +125,33 @@
   .div_6{
     width: 60%;
     position: relative;
-    left: 45px;
+    left: 23vw;
     margin-top: 10px;
 
   }
-
+  .footer_text{
+    margin-top: 9px;
+  }
   .div_7, .div_8, .div_9{
-    width: 26px;
-    height: 26px;
-    border: 1px;
+    width: 30px;
+    height: 30px;
+    border: solid #EC7D15 3px;
   }
   
-  .ig_icon, .twt_icon, .ph_icon, .fb_icon{
-    width: 26px;
-    height: 26px;
+  .ig_icon, .twt_icon, .ph_icon{
+    width: 18px;
+    height: 18px;
     padding: 2px;
+    position: relative;
+    left: 3px;
+    top: 3px;
+  }
+
+  .fb_icon{
+    width: 31px;
+    height: 31px;
+    position: relative;
+    top: 0px;
   }
 
   .div_10{
@@ -124,11 +167,11 @@
     float: left;
     right: 13px;
   }
-
   .text_2{ /*about us*/
     position: relative;
     right: 27px;
     font-size: 20px;
+    margin: 5px;
   }
 
   .text_3{/*about us para*/
@@ -165,14 +208,18 @@
   }
 
   .banner_1, .banner_2, .banner_3{
-    width: 82.5%;
+    width: 95%;
   }
 
-  .banner_4, .banner_5{
-    width: 84%;
+  .banner_4, .banner_5, .banner_6{
+    width: 95%;
   }
 
 }
+
+
+
+
 
 /*to hover input fields*/
 body{
@@ -319,7 +366,67 @@ body{
     scroll-snap-align: start;
   }
   
-  @media (min-width: 481px) {
+  .wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 50px; /* Replace with the height of your footer */
+  } 
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px; /* Replace with the height of your footer */
+    width: 100%;
+    background-color: #f5f5f5; /* Optional styling */
+  }
+  .footer_text{
+    margin-top: 9px;
+  }
+
+  .div_26{
+    margin-top: 16px;
+    margin-bottom: 16px
+  }
+
+  /* .testimonials-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .text_testi{
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    padding-left: 610px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  } */
+
+  /*Media Query Karthik's*/
+  .testimonials-slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .testimonial-slide {
+    flex: 0 0 auto;
+    width: 100%;
+    scroll-snap-align: start;
+  }
+
+  .text_test{
+    padding-left: 600px;
+    padding-top: 100px;
+    padding-bottom:100px ;
+  }
+  
+  @media (min-width: 500px) {
     .testimonials-slider {
       display: flex;
       justify-content: space-between;
@@ -329,10 +436,7 @@ body{
       flex-basis: 20%;
     }
   }
-  
-  /* testimonails again */
-  
-  .testimonials-section {
+.testimonials-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -353,29 +457,27 @@ body{
     border-radius: 50%;
     margin-bottom: 10px;
   }
-  
-
-  
-  
-
-  /*media query for mobile phones*/
- 
-  /* contact */
-
-
   /* For screens smaller than 768px (mobile devices) */
 @media only screen and (max-width:480px) {
   /* Adjust the width and left margin of the form section */
-  .div22 {
-    float:left;
-    width: 65%;
-    height: 50%;
-    left: 25%;
-    top: 1%;
-    border: 1px solid rgb(105, 105, 105);
-    background-color: rgb(105, 105, 105);
-    border-radius: 25px;
+  .div_22{
+    height: 120vh;
   }
+  .text_test{
+    position: relative;
+    left: 5vw;
+  }
+  .div22 {
+    position: relative;
+    width: 65%;
+    height: 40%;
+    bottom: 10%;
+    border: 1px solid rgb(105, 105, 105);
+    background-color: rgba(161, 161, 161, 0.7);
+    border-radius: 25px;
+    padding: 20px;
+  }
+  
   /*adjust submit button*/
   .div_23{
     left: 5%;
@@ -401,33 +503,47 @@ body{
   .div_26{
    width: 10%;
    height: 10%;
-   left: 36%;
-   top:4%;
+   left: 5.5%;
   }
 
   /* Adjust the left margin of the contact details section */
   .div26{
-    display: block;
-    left: -55%;
-    top:52%;
-    margin-bottom: 5px;
-    float: left;
-    font-size: 20px;
+    position: relative;
+    left: 12%;
+    top: 16%;
+    width:100%;
+    font-size:25px;
+    margin-bottom: 30%;
+    margin-top: 4%;
   }
 
   /* Adjust the position and font size of the footer */
-  .div_27 {
+  /* .div_27 {
     top: 85vh;
     font-size:7px;
    left: -40%;
+  } */
+
+  /*footer*/
+  .wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 50px; /* Replace with the height of your footer */
   }
+  .footer{
+    position: absolute;
+    bottom: 0;
+    height: 50px; /* Replace with the height of your footer */
+    width: 100%;
+  }
+
 
   /* Adjust the font size and line height of the label elements */
   .div26 label {
     font-size: 0.5em;
-    line-height: 2;
+    line-height: 2px;
   }
-  #div261{
+  /* #div261{
     height: 75px;
   }
   #div262{
@@ -435,7 +551,7 @@ body{
   }
   #div263{
     height: 75px;
-  }
+  } */
   /* Adjust the height and font size of the input and textarea elements */
   input[type="text"], input[type="email"], textarea {
     height: 30px;
@@ -444,19 +560,28 @@ body{
 
   /* Adjust the margin and font size of the submit button */
   .submit-button {
+    position: relative;
+    bottom: 10px;
     margin-top: 10px;
     font-size: 0.8em;
+    padding: 8px;
   }
 
 
   .div27{
-    display: none;
-    width: -150%;
-    height: -40%;
-    margin-left: -35%;
-    top: 5%;
-    width:25%;
-    line-height: -150%;
+   position: relative;
+   bottom: 30vh;
+   right: 5vw;
+   margin-right: 100px;
+  }
+
+  .map_iframe{
+    position: relative;
+    right: 10vw;
+    bottom:10vw;
+    width: 140px;
+    height: 140px;
+    
   }
 
 /*slider container*/
@@ -473,10 +598,14 @@ body{
 .testimonial {
   margin: 10px 0;
   text-align: center;
-}
-
   
 }
 
-
+/*Testimonials Heading*/
+.text_test{
+  padding-left: 75px;
+  padding-top: 10px;
+  padding-bottom:10px ;
+}
+}
 
