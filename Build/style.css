@@ -15,6 +15,81 @@
   
   color: #000000;
 }
+.logo img {
+  width: 51px;
+  position: relative;
+  right: 1555%;
+ 
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  font-family: sans-serif;
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  z-index: 5;
+  width: 100vw;
+ 
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 27px;
+  position: relative;
+  right: 15px;
+  
+}
+
+.topnav a:hover {
+  background-color: #000000;
+  color: rgb(252, 243, 243);
+}
+
+.topnav a.active {
+  background-color: #f95b00;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+    position: relative;
+    top: 55px;
+    
+  }
+}
 
 @media only screen and (max-width:820px){
   .bg_img{
@@ -33,6 +108,8 @@
     width: 100%;
     height: 80px;
     font-size: 28px;
+    position: relative;
+    top: 55px;
   }
 
   .text1{ /*we have experience banner*/
