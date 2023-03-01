@@ -553,26 +553,6 @@ video {
   left: 5px;
 }
 
-.top-\[20vh\] {
-  top: 20vh;
-}
-
-.left-\[18vw\] {
-  left: 18vw;
-}
-
-.right-\[13vw\] {
-  right: 13vw;
-}
-
-.right-\[21vw\] {
-  right: 21vw;
-}
-
-.right-\[30vw\] {
-  right: 30vw;
-}
-
 .top-\[220px\] {
   top: 220px;
 }
@@ -589,8 +569,12 @@ video {
   top: 14vh;
 }
 
-.left-\[15vw\] {
-  left: 15vw;
+.top-\[60px\] {
+  top: 60px;
+}
+
+.left-\[90px\] {
+  left: 90px;
 }
 
 .left-\[36vw\] {
@@ -605,76 +589,16 @@ video {
   left: 65vw;
 }
 
-.top-\[-70vh\] {
-  top: -70vh;
-}
-
-.bottom-\[350px\] {
-  bottom: 350px;
-}
-
 .top-\[-90vh\] {
   top: -90vh;
-}
-
-.bottom-\[380px\] {
-  bottom: 380px;
-}
-
-.bottom-\[390px\] {
-  bottom: 390px;
 }
 
 .bottom-\[400px\] {
   bottom: 400px;
 }
 
-.top-\[15vh\] {
-  top: 15vh;
-}
-
-.top-\[15\] {
-  top: 15;
-}
-
-.top-\[15px\] {
-  top: 15px;
-}
-
-.top-\[150px\] {
-  top: 150px;
-}
-
-.top-\[100px\] {
-  top: 100px;
-}
-
-.top-\[90px\] {
-  top: 90px;
-}
-
-.top-\[60px\] {
-  top: 60px;
-}
-
-.left-\[\] {
-  left: ;
-}
-
-.left-\[40p\] {
-  left: 40p;
-}
-
-.left-\[40px\] {
-  left: 40px;
-}
-
-.left-\[80px\] {
-  left: 80px;
-}
-
-.left-\[90px\] {
-  left: 90px;
+.top-\[100vh\] {
+  top: 100vh;
 }
 
 .z-\[5\] {
@@ -761,6 +685,26 @@ video {
   margin-top: 2rem;
 }
 
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
+.mt-\[0px\] {
+  margin-top: 0px;
+}
+
+.mt-\[8px\] {
+  margin-top: 8px;
+}
+
+.mt-\[5px\] {
+  margin-top: 5px;
+}
+
+.mt-\[px\] {
+  margin-top: px;
+}
+
 .flex {
   display: flex;
 }
@@ -787,10 +731,6 @@ video {
 
 .h-48 {
   height: 12rem;
-}
-
-.h-\[50vh\] {
-  height: 50vh;
 }
 
 .h-\[100vh\] {
@@ -831,10 +771,6 @@ video {
 
 .w-\[258px\] {
   width: 258px;
-}
-
-.w-\[20vw\] {
-  width: 20vw;
 }
 
 .w-\[99vw\] {
@@ -881,10 +817,6 @@ video {
   justify-content: center;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
 .gap-5 {
   gap: 1.25rem;
 }
@@ -927,11 +859,6 @@ video {
 .bg-\[\#EC7D15\] {
   --tw-bg-opacity: 1;
   background-color: rgb(236 125 21 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-25 {
