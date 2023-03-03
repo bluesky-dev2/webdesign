@@ -5,7 +5,7 @@ const sliderDots = document.querySelector('.slider-dots');
 let currentImage = 0;
 
 function clipboard(){
-    navigator.clipboard.writeText(9447989505);
+    navigator.clipboard.writeText(+917025141722);
     alert("Copied Hitech Designer's Phone Number to your device");
 }
 
