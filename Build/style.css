@@ -1,6 +1,6 @@
 @media only screen and (max-width:1000px){
   .bg_img{
-    display : none;
+    visibility: hidden;
   }
 
   .main_hd{
@@ -114,6 +114,9 @@
     display: none;
   }
 
+  .div_5{
+    width:80%;
+  }
   .main_hd{
     font-size: 53px;
     position: relative;
@@ -133,23 +136,23 @@
     margin-top: 9px;
   }
   .div_7, .div_8, .div_9{
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border: solid #EC7D15 3px;
   }
   
   .ig_icon, .twt_icon, .ph_icon{
-    width: 18px;
-    height: 18px;
+    width: 24px;
+    height: 24px;
     padding: 2px;
     position: relative;
-    left: 3px;
-    top: 3px;
+    left: 5px;
+    top: 5px;
   }
 
   .fb_icon{
-    width: 31px;
-    height: 31px;
+    width: 41px;
+    height: 41px;
     position: relative;
     top: 0px;
   }
@@ -158,6 +161,10 @@
     width: 100%;
     height: 40px;
     font-size: 12px;
+  }
+
+  .div_11{
+    width: 80%;
   }
 
   .text1{ /*we have experience banner*/
@@ -169,14 +176,15 @@
   }
   .text_2{ /*about us*/
     position: relative;
-    right: 27px;
+    left: 7vw;
     font-size: 20px;
     margin: 5px;
   }
 
   .text_3{/*about us para*/
     position: relative;
-    right: 15px;
+    left: 11vw;
+    right: 25vw;
     font-size: 15px;
     font-weight: normal;
     padding: 30px;
@@ -185,7 +193,7 @@
 
   .text_4{/*our services*/
     position: relative;
-    right: 27px;
+    left:0vw;
     font-size: 20px;
   }
 
@@ -214,6 +222,13 @@
   .banner_4, .banner_5, .banner_6{
     width: 95%;
   }
+
+    .ser_content{
+      position: relative;
+      left: 5vw;
+      margin-bottom: 30px;
+    }
+
 
 }
 
@@ -421,9 +436,20 @@ body{
   }
 
   .text_test{
+    position: relative;
+    left: 5vw;
     padding-left: 600px;
     padding-top: 100px;
     padding-bottom:100px ;
+  }
+
+
+  .gallery_h{
+    font-size: 48px;
+    position: relative;
+    margin-top: 15px;
+    color: white;
+    font-weight: bolder;
   }
   
   @media (min-width: 500px) {
@@ -465,6 +491,7 @@ body{
   }
   .text_test{
     position: relative;
+    width: 80%;
     left: 5vw;
   }
   .div22 {
@@ -508,13 +535,17 @@ body{
 
   /* Adjust the left margin of the contact details section */
   .div26{
+    width: 60vw;
     position: relative;
     left: 12%;
     top: 16%;
-    width:100%;
     font-size:25px;
     margin-bottom: 30%;
     margin-top: 4%;
+  }
+
+  .div261{
+    width: 10vw;
   }
 
   /* Adjust the position and font size of the footer */
@@ -603,9 +634,21 @@ body{
 
 /*Testimonials Heading*/
 .text_test{
-  padding-left: 75px;
-  padding-top: 10px;
-  padding-bottom:10px ;
+  padding-left: 55px;
+  padding-top: 30px;
+  padding-bottom:18px ;
 }
 }
 
+.div_11{
+  margin-top: 80px;
+}
+
+.text_3{
+  margin-top: 20px;
+}
+
+.text_4{
+  position: relative;
+  left: 3vw;
+}
