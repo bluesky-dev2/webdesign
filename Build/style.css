@@ -1,5 +1,7 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@300&family=Work+Sans:wght@800&display=swap');
 
 
@@ -17,8 +19,8 @@
 }
 .logo img {
   width: 51px;
-  position: relative;
-  right: 1555%;
+  position: fixed;
+  right: 96%;
  
 }
 
@@ -28,7 +30,7 @@ body {
 }
 
 .topnav {
-  font-family: sans-serif;
+  font-family: 'Padauk', sans-serif;
   overflow: hidden;
   background-color: #000000;
   position: fixed;
@@ -70,6 +72,25 @@ body {
     float: right;
     display: block;
     
+  }
+
+  .topnav a:hover{
+    
+  }
+  
+  .topnav{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .topnav a {
+    color: #000000;
+  }
+  .logo img {
+    display: none;
+    width: 51px;
+    position: fixed;
+    right: 96%;
+   
   }
   
 }
