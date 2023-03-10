@@ -1,11 +1,9 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Teko:wght@300&family=Work+Sans:wght@800&display=swap');
-
 
 .main_hd{
+  /* font-family: 'Lobster', cursive; */
+  /* font-family: 'Teko', sans-serif; */
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
   font-size: 128px;
@@ -211,7 +209,7 @@ body {
 
   .text_test{
  position: relative;
- right: 35vw;
+  right: 35vw;
   }
 
   .footer_text{
