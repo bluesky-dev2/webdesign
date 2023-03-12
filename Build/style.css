@@ -1,7 +1,10 @@
 /* Slider CSS BEGINS */
 #thumbnails {
-        text-align: center;
-      }
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
       #thumbnails img {
         width: 100px;
