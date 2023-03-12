@@ -165,25 +165,41 @@ testimonialsSlider.mount();
 <!-- ////////////////////////////Ending/////////////////////// -->
 
 
-<div class="gallery w-[100vw] h-[80vh] bg-[#EC7D15] h-[100vh] relative top-[211px] pt-[17.25vh]" id="Gallery" style="position: relative;">
+<div class="gallery w-[100vw] h-screen bg-[#EC7D15] relative top-[211px] pt-[17.25vh]" id="Gallery" style="position: relative;">
   <h1 class="gallery_h" style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); text-align: center;">Gallery</h1>
-  <div class="slider-container" style="display: flex; justify-content: center;">
-    <img src="./Assets/Slider1.jpg" alt="Image 1" class="active">
-    <img src="./Assets/Slider2.jpg" alt="Image 2">
-    <img src="./Assets/Slider3.jpg" alt="Image 3">
-    <img src="./Assets/Slider4.jpg" alt="Image 4">
-    <img src="./Assets/Slider5.jpg" alt="Image 5">
-    <img src="./Assets/Slider6.jpg" alt="Image 6">
-    <img src="./Assets/Slider7.jpg" alt="Image 7">
-    <div class="slider-dots"></div>
-    <a class="prev">&#10094;</a>
-    <a class="next">&#10095;</a>
-
-  </div>
+     <img
+  src="./Assets/Slider1.jpg"
+  id="main"
+  alt="Main Image"
+/>
+<div id="thumbnails">
+  <img
+    src="./Assets/Slider1.jpg"
+    alt="Thumbnail 1"
+  />
+  <img
+    src="./Assets/Slider2.jpg"
+    alt="Thumbnail 2"
+  />
+  <img
+    src="./Assets/Slider3.jpg"
+    alt="Thumbnail 3"
+  />
+  <img
+    src="./Assets/Slider4.jpg"
+    alt="Thumbnail 4"
+  />
+  <img
+    src="./Assets/Slider5.jpg"
+    alt="Thumbnail 5"
+  />
+  <img
+    src="./Assets/Slider6.jpg"
+    alt="Thumbnail 6"
+  />
 </div>
-
-
-
+</div> 
+<script src="./src/slider.js" defer></script>
 <div id="contactus" class="div_22 bg-black relative top-[210px] w-[100vw] h-[92vh]"> 
   <div class="div22 text-[#f8fafc] relative w-[15vw] left-[10vw] top-[14vh]">
     <div class="cont">
