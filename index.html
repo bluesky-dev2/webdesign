@@ -204,25 +204,27 @@ testimonialsSlider.mount();
 <div id="contactus" class="div_22 bg-black relative top-[210px] w-[100vw] h-[92vh]"> 
   <div class="div22 text-[#f8fafc] relative w-[15vw] left-[10vw] top-[14vh]">
     <div class="cont">
+    <form action="https://hightechdnrs.pythonanywhere.com/send" method="post" onsubmit="this.submit(); this.reset(); return alert('Feedback submitted successfully!');">
       <label for="name" class="div23">Name:</label><br>
       <div class="div_23 hover-effect">
-          <input type="text" placeholder="Name...">
+          <input type="text" name="name" placeholder="Name...">
         </div>
       <br>
       <br>           
       <label for="number"  class="div24">Contact no:</label><br>
       <div class="div_24 hover-effect">
-          <input type="email" placeholder="Contact number...">
+          <input type="text" name="contact" placeholder="Contact number...">
         </div>
       <br><br>
       
       <label for="message" class="div25">Requirements:<label><br>
       <div class="div_25 hover-effects">
-          <textarea placeholder="Type here.." height="20px"></textarea>
+          <textarea placeholder="Type here.."  name="requirement" height="20px"></textarea>
       </div>
     <div class="div_26 relative">
       <button class="submit-button" type="submit">Submit</button>
     </div>
+    </form>
   </div>
 </div>
 
